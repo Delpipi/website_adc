@@ -57,7 +57,7 @@ export default function Hero() {
             demain.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up animation-delay-300 justify-center items-center">
-            <LinkButton href="/poles-activites">
+            <LinkButton href="/poles/foncier">
               Découvrir nos services
               <ArrowRight className="ml-2 w-5 h-5" />
             </LinkButton>

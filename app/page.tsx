@@ -53,6 +53,7 @@ const services = [
       "Conseil juridique",
       "Procédures foncières",
     ],
+    url: "/poles/foncier",
   },
   {
     id: "conseil",
@@ -66,6 +67,7 @@ const services = [
       "Conseil juridique",
       "Accompagnement légal",
     ],
+    url: "/poles/conseil",
   },
   {
     id: "btp",
@@ -74,6 +76,7 @@ const services = [
       "Reprofilage des voiries, VRD et tous travaux de bâtiment et travaux publics.",
     image: "/services/service-btp.jpg",
     features: ["Reprofilage voiries", "VRD", "Travaux publics", "Aménagement"],
+    url: "/poles/btp",
   },
   {
     id: "logistique",
@@ -87,6 +90,7 @@ const services = [
       "Matières premières",
       "Parc d'équipements",
     ],
+    url: "/poles/logistique",
   },
   {
     id: "agriculture",
@@ -100,6 +104,7 @@ const services = [
       "Conseil agronomique",
       "Négoce",
     ],
+    url: "/poles/agriculture",
   },
 ];
 
@@ -310,7 +315,7 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <LinkButton variant="outline" href="#contact">
+                  <LinkButton variant="outline" href={`/${service.url}`}>
                     En savoir plus
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                   </LinkButton>
