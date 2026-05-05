@@ -1,0 +1,20 @@
+.menu {
+    color: #dca227;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.menu::before {
+    content: "☰";
+}
+
+.menu.open::before {
+    content: "X";
+}
+
+nav.open {
+    display: block;
+}
