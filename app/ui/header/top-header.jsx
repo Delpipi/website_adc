@@ -20,7 +20,7 @@ export default function TopHeader() {
         <div className="hidden md:block md:text-sm md:font-semibold md:border-l-2 md:border-secondary md:pl-small">
           <div className="flex gap-xsmall">
             <MailIcon className="size-4 text-secondary" />
-            <p>info@kolarel.com</p>
+            <p>info@adc-conseil.com</p>
           </div>
           <div className="flex gap-xsmall">
             <SmartphoneIcon className="size-4 text-secondary" />
