@@ -315,7 +315,7 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <LinkButton variant="outline" href={`/${service.url}`}>
+                  <LinkButton variant="outline" href={`${service.url}`}>
                     En savoir plus
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                   </LinkButton>
